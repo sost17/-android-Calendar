@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/darker_gray"
+    android:stretchColumns="*">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/one"
+            android:text="1 月"
+            style="@style/monthstyle" />
+
+        <Button
+            android:id="@+id/two"
+            style="@style/monthstyle"
+            android:text="2 月" />
+
+        <Button
+            android:id="@+id/three"
+            style="@style/monthstyle"
+            android:text="3 月" />
+
+        <Button
+            android:id="@+id/four"
+            style="@style/monthstyle"
+            android:text="4 月" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/five"
+            style="@style/monthstyle"
+            android:text="5 月" />
+
+        <Button
+            android:id="@+id/six"
+            style="@style/monthstyle"
+            android:text="6 月" />
+
+        <Button
+            android:id="@+id/seven"
+            style="@style/monthstyle"
+            android:text="7 月" />
+
+        <Button
+            android:id="@+id/eight"
+            style="@style/monthstyle"
+            android:text="8 月" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/nine"
+            style="@style/monthstyle"
+            android:text="9 月" />
+
+        <Button
+            android:id="@+id/ten"
+            style="@style/monthstyle"
+            android:text="10 月" />
+
+        <Button
+            android:id="@+id/eleven"
+            style="@style/monthstyle"
+            android:text="11 月" />
+
+        <Button
+            android:id="@+id/twelve"
+            style="@style/monthstyle"
+            android:text="12 月" />
+    </TableRow>
+</TableLayout>
